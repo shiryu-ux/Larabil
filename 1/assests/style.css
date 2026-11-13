@@ -1,0 +1,90 @@
+/* css styles */
+
+body {
+   color : #090808;
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+}
+
+.container {
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 20%;
+   margin-right: 20%;
+   padding: 20px;
+   border-radius: 5px; 
+   border: 1px solid #000;
+   background-color: rgba(250, 235, 215, 0.611);
+}
+
+.title{
+    text-transform: uppercase;
+}
+
+.center{
+     text-align: center;
+     font-weight: bold;
+     front-family: 'Poppins', sans-serif;
+}
+
+
+.name{
+    text-align: center;
+    color: #eb1093;
+}
+
+
+.BIOT{
+    text-align: justify;
+    front-family: 'Poppins', sans-serif;
+    font-size: 20px;
+   
+}
+
+.hobby{
+    text-align: center;
+    font-style: bold;
+}
+
+.btn{
+    line-height: 2;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+
+.btn-shatgpt{
+    background-color: #191212;
+      color: #000;
+    
+}
+
+.btn-shatgpt:hover{
+     background-color: #be1414;
+      color: #030000;
+}
+
+.btn-shatgemini{
+    background-color: #100e0e;
+    color: #000;
+    
+}
+
+.btn-shatgemini:hover{
+     background-color: #1cff73;
+    color: #000;
+}
+
+.btn-tiktak{
+    background-color: #0f0e11;
+    color: #000;
+    
+}
+
+.btn-tiktak:hover{
+     background-color: #8e25ff;
+    color: #000;
+}
