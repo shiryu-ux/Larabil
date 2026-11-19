@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="center">Student Registration Form</h1>
+            <p class="center">Join our school club!</p>
+            <p>Name, email and course are required.</p>
+
+            <form action="index.html" method="get">
+                <div class="form-group">
+                    <label for="name">Name (required)</label>
+                    <input type="text" id="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email (required)</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="course">Course (required)</label>
+                    <select id="course" required>
+                        <option value="">Select your course</option>
+                        <option value="BSIT">BSIT</option>
+                        <option value="BSCS">BSCS</option>
+                        <option value="BSBA">BSBA</option>
+                        <option value="BSED">BSED</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="reason">Reason for joining (optional)</label>
+                    <textarea id="reason" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+
+            <p>This is a practice form. Submitting reloads the page and does not create an account.</p>
+        </div>
+    </main>
+</body>
+</html>
