@@ -1,0 +1,121 @@
+﻿body {
+    margin: 0;
+    background-color: #faf4eb;
+    color: #38251e;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header, footer {
+    background-color: #432a20;
+    color: white;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+#about {
+    text-align: center;
+}
+
+#carouselExample {
+    max-width: 320px;
+    margin: 0 auto 15px;
+}
+
+.carousel-inner {
+    background-color: #432a20;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+}
+
+.close-up {
+    transform: scale(1.4);
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+article {
+    flex: 1;
+    padding: 15px;
+}
+
+article, #join {
+    background-color: white;
+    border: 1px solid #ddc9b7;
+    border-radius: 8px;
+}
+
+#join {
+    padding: 20px;
+}
+
+article h3, #join h2 {
+    margin-top: 0;
+}
+
+#join input {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #917a6b;
+    border-radius: 4px;
+    font: inherit;
+}
+
+#about a, #join button {
+    display: inline-block;
+    padding: 8px 15px;
+    border: 1px solid #70432e;
+    border-radius: 5px;
+    background-color: #70432e;
+    color: white;
+    font: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#about a:hover, #join button:hover {
+    background-color: #432a20;
+}
+
+:focus-visible {
+    outline: 2px solid #005fcc;
+    outline-offset: 2px;
+}
+
+.navbar :focus-visible, .carousel button:focus-visible {
+    outline-color: white;
+}
+
+.carousel button:focus-visible {
+    outline-offset: -4px;
+}
+
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+}

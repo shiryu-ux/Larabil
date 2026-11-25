@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5 - Kape Club</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="top">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container-fluid">
+                <h1 class="m-0">
+                    <a class="navbar-brand" href="#top">Kape Club</a>
+                </h1>
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#activities">Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#join">Join</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="1.png" class="d-block w-100" alt="A cup of black coffee on a saucer">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../3/assets/coffee.png" class="d-block w-100" alt="Illustration of a takeaway coffee cup">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="1.png" class="d-block w-100 close-up" alt="Close-up of the black coffee">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <p>KAPE KAPE KAPE KAPE KAPE.</p>
+            <a href="#join">Join Us</a>
+        </section>
+
+        <section id="activities">
+            <h2>Activities</h2>
+
+            <div class="cards">
+                <article id="tasting">
+                    <h3>Coffee Tasting</h3>
+                    <p>Try different kinds of coffee.</p>
+                </article>
+
+                <article id="workshop">
+                    <h3>Brewing Workshop</h3>
+                    <p>Learn how to make coffee.</p>
+                </article>
+
+                <article id="study">
+                    <h3>Coffee and Study</h3>
+                    <p>Study with friends over coffee.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="join">
+            <h2>Join the Club</h2>
+            <p>This practice form only checks your name and email.</p>
+
+            <form action="index.html#join" method="get">
+                <label for="name">Name (required)</label>
+                <input type="text" id="name" autocomplete="name" required>
+
+                <label for="email">Email (required)</label>
+                <input type="email" id="email" autocomplete="email" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="m-0">Campus Coffee Club</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
